@@ -102,3 +102,27 @@ footer h2 {
 .picture {
   width: 160px;
 }
+
+@media screen and (max-width: 750px) {
+  .formContent {
+    text-align: center;
+    padding: 5px;
+    max-width: 315px;
+    float: none;
+    margin: auto;
+  }
+  .title {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .picture {
+    border-radius: 15px;
+    width: 140px;
+  }
+  .status {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 80%;
+  }
+}
